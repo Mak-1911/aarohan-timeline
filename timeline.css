@@ -111,17 +111,23 @@
 	 .timeline-item:last-child {
 		 padding-bottom: 40px;
 	}
+	.timeline-header{
+		padding-bottom: 20px;
+	}
 	.timeline-header__title {
 		color: #fff;
 		font-size: 38px;
 		font-family: Cardo;
 		font-weight: normal;
 		margin: 0;
+		
 		background: linear-gradient(90deg, rgba(247,54,221,1) 0%, rgba(167,38,151,1) 26%, rgba(205,74,185,1) 47%, rgba(203,114,26,1) 74%, rgba(255,149,0,1) 100%);
 		-webkit-background-clip: text;
 	 -webkit-text-fill-color: transparent;
 	 font-weight: bold;
-}}
+}
+
+}
  .timeline__img {
 	 max-width: 100%;
 	 box-shadow: 0 10px 15px rgba(0, 0, 0, .4);
