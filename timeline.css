@@ -569,4 +569,21 @@ body::-webkit-scrollbar {
 		width: 380px;
 	}
  }
+ @media only screen and (max-width:390px){
+	.timeline-container{
+		width: 370px;
+	}
+ }
+ @media only screen and (max-width:370px){
+	.timeline-container{
+		width: 350px;
+	}
+ }
+ @media only screen and (max-width:350px){
+	.timeline-container{
+		width: 330px;
+	}
+ }
+ 
+ 
  
