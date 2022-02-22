@@ -566,22 +566,42 @@ body::-webkit-scrollbar {
 }
  @media only screen and (max-width:400px){
 	.timeline-container{
-		width: 380px;
+		width: 375px;
+		overflow-x: hidden;
+	}
+	.timeline-container:before{
+		width:375px;
+		overflow-x: hidden;
 	}
  }
  @media only screen and (max-width:390px){
 	.timeline-container{
 		width: 370px;
+		overflow-x: hidden;
+	}
+	.timeline-container:before{
+		width:370px;
+		overflow-x: hidden;
 	}
  }
- @media only screen and (max-width:370px){
+ @media only screen and (max-width:375px){
 	.timeline-container{
-		width: 350px;
+		width: 360px;
+		overflow-x: hidden;
+	}
+	.timeline-container:before{
+		width:360px;
+		overflow-x: hidden;
 	}
  }
  @media only screen and (max-width:350px){
 	.timeline-container{
 		width: 330px;
+		overflow-x: hidden;
+	}
+	.timeline-container:before{
+		width:330px;
+		overflow-x: hidden;
 	}
  }
  
