@@ -606,6 +606,20 @@ body::-webkit-scrollbar {
 		overflow-x: hidden;
 	}
  }
+ @media only screen and (max-width:767px){
+	/* .timeline{
+		
+		width:auto; 
+		overflow-x: hidden;
+	} */
+	.timeline::before{
+		width:auto; 
+		overflow-x: hidden;
+	}
+	/* .timeline-item{
+		padding-left: 1px;
+	} */
+ }
  
  
  
