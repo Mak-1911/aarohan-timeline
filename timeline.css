@@ -627,6 +627,13 @@ body::-webkit-scrollbar {
 	}
 	
  }
+ @media only screen and (max-width:767px){
+	 .video{
+		 object-fit: cover;
+  position: fixed;
+
+	 }
+ }
  
  
  
