@@ -138,18 +138,27 @@
 	 transition: 0.3s ease 0s;
 	 background-attachment: fixed;
 	 background-size: cover;
+	  /* margin-left: 10px;*/
+	 
+	 /* padding-right: -50px; */
 }
- .timeline-container:before {
-	 position: absolute;
+ .timeline-container::before {
+	 /* position: absolute;
 	 left: 0;
 	 top: 0;
 	 width: 100%;
-	 height: 100%;
-	 background: rgb(199, 89, 75);
-     opacity: 0.3;
+	 height: 100%; */
+	 /* background: rgb(199, 89, 75); */
+     /* opacity: 0.3;
 	 content: "";
 	 border: 2px solid pink;
-	 border-radius: 15px;
+	 border-radius: 15px; */
+	 /* padding-top: 10px; */
+	 /* margin-top: 8px;
+	 margin-left: 8px ;
+	 margin-right: 8px !important; */
+	
+	 /* margin-right: 10px; */
      
 }
  .timeline-header {
@@ -157,12 +166,13 @@
 	 text-align: center;
 	 margin-bottom: 80px;
 	 position: relative;
+	 padding-top: 18px;
 }
  .timeline-header__title {
 	 color: #fff;
 	 font-size: 46px;
 	 font-family: Cardo;
-	 font-weight: normal;
+	 font-weight:220;
 	 margin: 0;
 	 background: linear-gradient(90deg, rgba(247,54,221,1) 0%, rgba(167,38,151,1) 26%, rgba(205,74,185,1) 47%, rgba(203,114,26,1) 74%, rgba(255,149,0,1) 100%);
 	 -webkit-background-clip: text;
@@ -171,12 +181,12 @@
 	 
 }
  .timeline-header__subtitle {
-	 color: rgba(255, 255, 255, .5);
+	 color: white;
 	 font-family: 'Pathway Gothic One', sans-serif;
-	 font-size: 16px;
+	 font-size: 20px;
 	 letter-spacing: 5px;
 	 margin: 10px 0 0 0;
-	 font-weight: normal;
+	 font-weight: 100;
 	 padding-left: 7px;
 }
  .demo-footer {
@@ -198,8 +208,8 @@ video{
   top: 0;
   bottom: 0;
   z-index: -1;
-  -o-filter: blur(5px);
-    filter: blur(5px);
+  /* -o-filter: blur(3px);
+    filter: blur(3px); */
 }
 
 .timeline-card{
@@ -317,9 +327,10 @@ body::-webkit-scrollbar {
   .event h1 {
 	font-size: 18px;
 	margin: 0px;
-	background: linear-gradient(90deg, rgba(247,54,221,1) 0%, rgba(247,54,221,1) 26%, rgba(247,54,221,1) 47%, rgba(203,114,26,1) 74%, rgba(255,149,0,1) 100%);
+	/* background: linear-gradient(90deg, rgb(85, 250, 52) 0%, rgb(154, 221, 110) 26%, rgb(152, 241, 197) 47%, rgb(44, 230, 243) 74%, rgb(26, 238, 192) 100%);
 	 -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent; */
+  color:white;
   font-weight: bold;
   }
   .card h2 {
@@ -607,13 +618,8 @@ body::-webkit-scrollbar {
 	}
  }
  @media only screen and (max-width:767px){
-	/* .timeline{
-		
-		width:auto; 
-		overflow-x: hidden;
-	} */
 	.card{
-		margin-left: -20px;
+		margin-left: -25.5px;
 	}
 	.timeline::before{
 		width:auto; 
