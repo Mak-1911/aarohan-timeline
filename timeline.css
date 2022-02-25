@@ -225,8 +225,8 @@ video{
   
   .wrapper {
 	position: absolute;
-	left: 50%;
-	top: 50%;
+	 left: 50%;
+	top: 50%; 
 	transform: translate(-50%, -50%);
 	-webkit-transform: translate(-50%, -50%);
 	animation: fadeIn 1000ms ease;
@@ -236,6 +236,7 @@ video{
 	border-radius: 30px;
 	padding-left: 10px;
 	padding-right: 10px;
+	/* display: flex; */
 	
   }
   
@@ -521,6 +522,10 @@ body::-webkit-scrollbar {
 		  margin: 18px 6.5px;
 		  text-align: center;
    
+	  }
+	  .wrapper{
+		  margin-top: 50px;
+		  display: flex;
 	  }
 	  .modalCardWrapper p{
 		  margin: 18px 6.5px;
