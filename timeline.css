@@ -211,6 +211,46 @@ video{
   /* -o-filter: blur(3px);
     filter: blur(3px); */
 }
+@keyframes fadeIn {
+	from {top: 20%; opacity: 0;}
+	to {top: 100; opacity: 1;}
+	
+  }
+  
+  @-webkit-keyframes fadeIn {
+	from {top: 20%; opacity: 0;}
+	to {top: 100; opacity: 1;}
+	
+  }
+  
+  .wrapper {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	animation: fadeIn 1000ms ease;
+	-webkit-animation: fadeIn 1000ms ease;
+	backdrop-filter: blur(50px);
+	padding-bottom: 30px;
+	border-radius: 30px;
+	padding-left: 10px;
+	padding-right: 10px;
+	
+  }
+  
+  h1 {
+	font-size: 46px;
+	 font-family: Cardo;
+	margin-bottom: 0;
+	line-height: 1;
+	font-weight: 700;
+	color:white;
+  }
+  
+  .dot {
+	color: #4FEBFE;
+  }
 
 .timeline-card{
     background-color: rgba(73, 0, 61, 0.5);
